@@ -1,3 +1,8 @@
+/*code rajouté*/
+.d-block {
+	width: 100%;
+}
+/*code rajouté*/
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -49,7 +54,6 @@ body {
 	padding-block: 100px;
 	position: relative;
 }
-
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -102,7 +106,8 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: grey;
+	opacity: 0.3;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -192,7 +197,7 @@ body {
 
 #contact {
 	margin: auto;
-	background-color: #D8D3A8 ;
+	background-color: grey;
 	position: relative;
 	padding-inline: 100px;
 	padding-block: 100px;
@@ -203,7 +208,7 @@ body {
 }
 .picture.right::before {
 	content: ' ';
-	background-color: #BEB45A;
+	background-color: grey;
 	width: 374px;
 	height: 329px;
 	position: absolute;
@@ -240,10 +245,13 @@ form textarea {
 	margin-bottom: 20px;
 }
 input[type="submit"] {
-	background-color: #BEB45A;
+	background-color: grey;
 	padding: .5em 1em
 }
-
+.textFormulaire, .textUneQuestion {
+	background-color: white;
+	padding: 5px;
+}
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -335,6 +343,10 @@ input[type="submit"] {
 	}
 	.picture.left::before, .picture.right::before {
 		height: 150px;
+	}
+	.imgNina {
+		width: 393px;
+		height: 392px;
 	}
 	#services .container {
 		align-items: center;
