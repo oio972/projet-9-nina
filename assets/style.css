@@ -1,11 +1,18 @@
 /*code rajouté*/
-.d-block {
-	width: 100%;
+.imgInstagramMobile {
+	display: none;
+}
+.imgCameraMobile {
+	display: none;
+}
+.img1Mobile {
+	display: none;
 }
 /*code rajouté*/
 body {
 	max-width: 1920px;
 	margin: auto;
+	min-width: 43vh;
 }
 * {
 	font-family: 'Inter';
@@ -70,10 +77,8 @@ body {
 	margin: 0 20px;
 	z-index: 0;
 }
-
 .picture img {
 	width: 100%;
-
 }
 #about-me {
 	flex: 2
@@ -93,10 +98,6 @@ body {
 	width: 80%;
 	font-size: 14px;
 }
-
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -105,9 +106,8 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: grey;
-	opacity: 0.3;
+	color: white;
+	background-color: black;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -252,6 +252,9 @@ input[type="submit"] {
 	background-color: white;
 	padding: 5px;
 }
+.label {
+	background-color: aliceblue;
+}
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -344,10 +347,6 @@ input[type="submit"] {
 	.picture.left::before, .picture.right::before {
 		height: 150px;
 	}
-	.imgNina {
-		width: 393px;
-		height: 392px;
-	}
 	#services .container {
 		align-items: center;
 	}
@@ -364,5 +363,24 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+	/*code rajouté*/
+	.d-block {
+		width: 100%;
+		height: 100%;
+	}
+	.imgInstagram {
+		display: none;
+	}
+	.imgCamera {
+		display: none;
+	}
+	.imgCameraMobile {
+		width: 348;
+		height: 347px;
+	}
+	.img1 {
+		display: none;
+	}
+	/*code rajouté*/
 }
 
