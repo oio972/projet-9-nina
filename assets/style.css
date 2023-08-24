@@ -1,22 +1,15 @@
 /*code rajouté*/
-.imgInstagramMobile {
-	display: none;
-}
-.imgCameraMobile {
-	display: none;
-}
-.img1Mobile {
-	display: none;
+@import url('https://fonts.googleapis.com/css2?family=Inter&amp;family=Spectral:ital,wght@0,400;1,300;1,400;1,800&amp;display=swap');
+* {
+	font-family: 'Inter';
+	font-style: normal;
+	font-display: swap;
 }
 /*code rajouté*/
 body {
 	max-width: 1920px;
 	margin: auto;
 	min-width: 43vh;
-}
-* {
-	font-family: 'Inter';
-	font-style: normal;
 }
 .top-header {
 	background-color: white;
@@ -363,24 +356,21 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
-	/*code rajouté*/
-	.d-block {
+	.imgNina {
 		width: 100%;
-		height: 100%;
-	}
-	.imgInstagram {
-		display: none;
+		height: auto;
 	}
 	.imgCamera {
-		display: none;
+		width: 100%;
+		height: auto;
 	}
-	.imgCameraMobile {
-		width: 348;
-		height: 347px;
+	.imgInstagram {
+		width: 100%;
+		height: auto;
 	}
-	.img1 {
-		display: none;
+	.d-block {
+		width: 100%;
+		height: auto;
 	}
-	/*code rajouté*/
 }
 
